@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <html lang="ru">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="свайпер/swiper.min.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="div-header">
+                <div class="div-brand">
+                    <a href="index.html" class="main-header__brand"><img class= "Logo" src="images/logotype.png" alt=""></a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="main-nav__items">
+                        <li class="main-nav__item"><a href="">Главная</a></li>
+                        <li class="main-nav__item item-menu">
+                            <a href="#">Меню</a>
+                            <ul class="menu">
+                                <li>Роллы</li>
+                                <li>Горячие роллы</li>
+                                <li>Классические роллы</li>
+                                <li>Гунканы</li>
+                                <li>Суши</li>
+                                <li>Горячие закуски</li>
+                                <li>Сеты</li>
+                                <li>Салаты</li>
+                                <li>Супы</li>
+                                <li>Кофе</li>
+                                <li>Чай</li>
+                                <li>Холодные напитки</li>
+                                <li>Варенье</li>
+                                <li>Мороженое</li>
+                            </ul>
+                        </li>
+                        <li class="main-nav__item"><a href="">Условия доставки</a></li>
+                        <li class="main-nav__item"><a href="">Акции</a></li>
+                        <li class="main-nav__item"><a href="">О нас</a></li>
+                        <li class="main-nav__item"><a href="">Войти</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <a href="#" class="menu-btn">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <img class="background_logo" src="images/Logo.png" alt="">
+        </header>
+        <main>
+            <section class="section_one">
+                <h1 class="section-title">Добро пожаловать!</h1>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/Главная/slide1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/Главная/slide2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/Главная/slide3.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="section_two" >
+                <h1 class="section-title" id="two-title">Популярное за неделю</h1>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/Главная/слайд1.jpg" alt="">
+                            <div>
+                                <h2>Ролл Калифорния</h2>
+                                <p>250</p>
+                                <a href="">В корзину</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/Главная/слайд2.jpg" alt="">
+                            <div>
+                                <h2>Ролл Бешеный лосось</h2>
+                                <p id="rub">300</p>
+                                <a href="">В корзину</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/Главная/слайд3.jpg" alt="">
+                            <div>
+                                <h2>Ролл Филадельфия</h2>
+                                <p>270</p>
+                                <a href="">В корзину</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section class="section_three">
+                <img src="images/Главная/доставка.jpg" alt="">
+            </section>
+        </main>
+        <footer>
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                var setting = {"height":300,"width":764,"zoom":19,"queryString":"г. Грозный, Чеченская Республика, Россия","place_id":"ChIJJ-tzKh3TUUARNtP8A7fGoJA","satellite":false,"centerCoord":[43.306770435324,45.62813705000008],"cid":"0x90a0c6b703fcd336","cityUrl":"/russia/groznyy-57383","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"115617"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=115617';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://1map.com/map-embed?embed_id=115617">1map.com</a></div>
+            <div class="contacts">
+                <h2 class="footer-title">Наши контакты</h2>
+                <ul>
+                    <li>
+                        <img src="images/Иконки/телефон.png" alt="">
+                        <p>8(928) 021-09-05</p>
+                    </li>
+                    <li>
+                        <img src="images/Иконки/телефон.png" alt="">
+                        <p>8(928) 022-09-05</p>
+                    </li>
+                    <li>
+                        <img src="images/Иконки/метка.png" alt="">
+                        <p>г.Аргун. ул.Шоссейная 110 Б</p>
+                    </li>
+                    <li>
+                        <img src="images/Иконки/инста.png" alt="">
+                        <p>Sushitime_argun</p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="свайпер js/swiper.min.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+        </script>
+        <script src="script.js"></script>
+</body>
+</html>
